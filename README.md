@@ -3,10 +3,16 @@
 MySQL is from oracle
 SQL server is from microsoft
 
-# always use group by when ever u use aggregate functions
+- always use group by when ever u use aggregate functions
+- learn differnce btwn inner join , natural join , equi join
+- u can order by multiple columns
 
-# learn differnce btwn inner join , natural join , equi join
+# coalsce
+     COALESCE(expression1, expression2, ..., expressionN)
+- COALESCE is a SQL function used to return the first non-null value in a list of arguments.  
+- It is useful for handling NULL values in SQL queries and ensuring that your result set contains meaningful values instead of NULLs.
 
+  
 # join
 - 'on' clause is must
 - by default performs inner join ( returns matching rows form both tables ....based on condition given in 'on' clause
@@ -37,7 +43,9 @@ SQL server is from microsoft
 # round off
      round( float_numbr_colum , no_of_decimal_u_want)
 
+# avg with if condition 
+          avg(if(c.action="confirmed",1,0)) ...... if count( action == confirmed ) /count(*) after group by
  # case when ' ' = ' ' then 1 else 0 end 
-     sum( case when coln_name = 5 then 1 else 0 end)  ----->   used to find count of coln_n when its value is something(5)
+     case when coln_name = 5 then 1 else 0 end 
      
      
