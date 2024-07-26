@@ -3,7 +3,9 @@
 MySQL is from oracle
 SQL server is from microsoft
 
-learn differnce btwn inner join , natural join , equi join
+# always use group by when ever u use aggregate functions
+
+# learn differnce btwn inner join , natural join , equi join
 
 # join
 - 'on' clause is must
@@ -31,3 +33,6 @@ learn differnce btwn inner join , natural join , equi join
      DATE_ADD(date_col, INTERVAL -5 DAY)
      DATE_ADD(date_col, INTERVAL 2 MONTH)
      DATE_ADD(date_col, INTERVAL 1 YEAR)
+     
+# round off
+     round( float_numbr_colum , no_of_decimal_u_want)
