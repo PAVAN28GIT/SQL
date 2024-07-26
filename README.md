@@ -7,7 +7,7 @@ SQL server is from microsoft
 - learn differnce btwn inner join , natural join , equi join
 - u can order by multiple columns
 
-# coalsce
+# coalesce
      COALESCE(expression1, expression2, ..., expressionN)
 - COALESCE is a SQL function used to return the first non-null value in a list of arguments.  
 - It is useful for handling NULL values in SQL queries and ensuring that your result set contains meaningful values instead of NULLs.
