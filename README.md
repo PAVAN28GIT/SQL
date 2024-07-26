@@ -1,7 +1,13 @@
 # SQL
 
-MySQL is from oracle
+MySQL is a database owned by oracle
+PL/SQL is used for oracle databse.. (mysql db and orale db are different )
 SQL server is from microsoft
+
+
+# edge cases
+- consider using coalesce for handling null value
+- use order by at end 
 
 - always use group by when ever u use aggregate functions
 - learn differnce btwn inner join , natural join , equi join
