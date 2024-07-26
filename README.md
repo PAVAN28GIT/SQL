@@ -37,7 +37,7 @@ SQL server is from microsoft
 # round off
      round( float_numbr_colum , no_of_decimal_u_want)
 
- **case when ' ' = ' ' then 1 else 0 end**  used to find count of coln_n when its value is something(5)
-     sum( case when coln_name = 5 then 1 else 0 end) 
+ # case when ' ' = ' ' then 1 else 0 end 
+     sum( case when coln_name = 5 then 1 else 0 end)  ----->   used to find count of coln_n when its value is something(5)
      
      
