@@ -53,5 +53,10 @@ SQL server is from microsoft
           avg(if(c.action="confirmed",1,0)) ...... if count( action == confirmed ) /count(*) after group by
  # case when ' ' = ' ' then 1 else 0 end 
      case when coln_name = 5 then 1 else 0 end 
+
+ # count of columns when ..(some conditon)
+     sum(case when state = 'approved' then 1 else 0 end)  # all aggregate u shld use with group by .. this returns count of how many rows where state = approved within a group
+
+     sum(case when state = 'approved' then amount else 0 end)  # returns sum of amount column within a group where state = 'approved'
      
      
