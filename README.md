@@ -41,10 +41,13 @@ SQL server is from microsoft
 # MySQL functions
 
 # data function 
-     DATE_ADD(date_col, INTERVAL 1 DAY)
+     
+     DATE_ADD(date_col, INTERVAL 1 DAY)  #mysql
      DATE_ADD(date_col, INTERVAL -5 DAY)
      DATE_ADD(date_col, INTERVAL 2 MONTH)
      DATE_ADD(date_col, INTERVAL 1 YEAR)
+
+     to_char( date_col , 'yyyy-mm') #oracle ... to get only year and month from date_col 
      
 # round off
      round( float_numbr_colum , no_of_decimal_u_want)
