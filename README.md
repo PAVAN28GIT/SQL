@@ -15,10 +15,14 @@ SQL server is from microsoft
 
 # coalesce
      COALESCE(expression1, expression2, ..., expressionN)
+     SUM(COALESCE( quantity , 0))   -----> if quantity is null it will be treated as 0 ....
 - COALESCE is a SQL function used to return the first non-null value in a list of arguments.  
 - It is useful for handling NULL values in SQL queries and ensuring that your result set contains meaningful values instead of NULLs.
 
-  
+# aggregate
+     COUNT(DISTINCT column_name)       ----> get no of distinct values in col
+     sum(case when rating < 3 then 1 else 0 end)
+     
 # join
 - 'on' clause is must
 - by default performs inner join ( returns matching rows form both tables ....based on condition given in 'on' clause
