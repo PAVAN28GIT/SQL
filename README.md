@@ -16,6 +16,8 @@ SQL server is from microsoft
 # coalesce
      COALESCE(expression1, expression2, ..., expressionN)
      SUM(COALESCE( quantity , 0))   -----> if quantity is null it will be treated as 0 ....
+
+     select ifnull ( ........ , 1 )
 - COALESCE is a SQL function used to return the first non-null value in a list of arguments.  
 - It is useful for handling NULL values in SQL queries and ensuring that your result set contains meaningful values instead of NULLs.
 
